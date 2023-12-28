@@ -156,7 +156,7 @@ call-container */
 
 .call-container-around{
     width: 100%;
-    padding: 150px 0;
+    margin: 150px 0;
 }
 
 .call-container{
@@ -180,4 +180,18 @@ call-container */
     color: #F9FAF8;
     font-weight: 400;
     font-size: 15px;
+}
+
+/* End of call to action section -> beginning of footer */
+
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: #1F2937;
+    color:#F9FAF8;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
 }
