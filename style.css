@@ -1,7 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@700&family=Roboto&display=swap');
+
 *{
-    font-family: 'Roboto', sans-serif;
+    font-family: Roboto;
 }
 
 body{
@@ -23,7 +24,7 @@ body{
 }
 .hero .hero-content h1{
     font-size: 48px;
-    font-weight: bold;
+    font-weight: 1000;
     color: #F9FAF8;
     margin: 0;
     color: #F9FAF8;
@@ -50,7 +51,7 @@ header ul{
     display: flex;
     gap: 10px;
     font-size: 18px;
-    color: E5E7EB;
+    color: #d8d9db;
 }
 
 header .logo{
@@ -80,4 +81,44 @@ header .logo{
     font-size: large;
     font-weight: 600;
     border: none;
+}
+
+/* End of Hero section -> Beginning of information block section */
+
+.information-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.blocks-information{
+    font-size: 20px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.block-container{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin-top: 50px;
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+}
+
+.block{
+    width: 120px;
+    height: 120px;
+    border: #3882F6 solid;
+    border-radius: 6px;
+}
+
+.subtext{
+    text-align: center;
+
 }
