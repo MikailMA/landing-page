@@ -123,11 +123,6 @@ header .logo{
 
 }
 
-/* quote-container
-quote
-quote-by */
-
-
 .quote-container{
     background-color: #E5E7EB;
     width: 100%;
@@ -152,4 +147,37 @@ quote-by */
     font-weight: 900;
     text-align: end;
     font-size: larger;
+}
+
+/* End of quote section -> Beginning call to action section */
+
+/* call-container-around
+call-container */
+
+.call-container-around{
+    width: 100%;
+    padding: 150px 0;
+}
+
+.call-container{
+    background-color: #3882F6;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 30px 0;
+    margin: 0 300px;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.call-container button{
+    background-color: #3882F6;
+    width: 100px;
+    height: 35px;
+    border: white solid;
+    border-radius: 4px;
+    color: #F9FAF8;
+    font-weight: 400;
+    font-size: 15px;
 }
